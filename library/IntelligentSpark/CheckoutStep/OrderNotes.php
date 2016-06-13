@@ -53,7 +53,7 @@ class OrderNotes extends CheckoutStep
 
         $varValue = null;
 
-        $objWidget = new $strClass($strClass::getAttributesFromDca($GLOBALS['TL_DCA'][$this->strTable]['fields'][$this->strField], $this->strField, $varValue, $this->strField, $this->strTable, $this));
+        $objWidget = new FormTextArea(FormTextArea::getAttributesFromDca($GLOBALS['TL_DCA'][$this->strTable]['fields'][$this->strField], $this->strField, $varValue, $this->strField, $this->strTable, $this));
         $objWidget->storeValues = true;
 
         if (\Input::post('FORM_SUBMIT') == $this->strFormId) {
