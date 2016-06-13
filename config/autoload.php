@@ -23,6 +23,7 @@ if (class_exists('NamespaceClassLoader')) {
  */
 TemplateLoader::addFiles(array
 (
-    //'be_iso_integrity'                  => 'system/modules/isotope/templates/backend'
+
+    'iso_checkout_order_order_notes'     => 'system/modules/isotope_checkout_step_order_notes/templates/checkout'
 
 ));
