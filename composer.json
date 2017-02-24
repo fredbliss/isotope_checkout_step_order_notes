@@ -30,6 +30,13 @@
       ]
     }
   },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/isotope_checkout_step_order_notes"
+      }
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
